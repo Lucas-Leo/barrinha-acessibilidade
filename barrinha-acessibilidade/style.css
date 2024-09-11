@@ -1,0 +1,47 @@
+.barrinha {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ccc;
+    border-radius: 10px;
+    width: 16rem;
+}
+
+.controledezoom button, #alterartema {
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#alterartema {
+    background-color: #333;
+    color: #fff;
+}
+
+.controledezoom button:hover, #alterartema:hover {
+    opacity: 0.8;
+}
+
+body.modoescuro {
+    background-color: #333;
+    color: #fff;
+}
+
+body.modoclaro {
+    background-color: #fff;
+    color: #333;
+}
+
+button {
+    background-color: #fff;
+    color: #000;
+}
+
+button:focus {
+    outline: none;
+}
+
+
